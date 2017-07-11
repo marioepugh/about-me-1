@@ -1,5 +1,16 @@
+body{
+  background-color: #bcc8db;
+}
 h1 {
-  text-align: Center;
-  font: italic;
-  font-size: 25px;
+  font-size: 100px;
+  font-family: "Verdana", Times, serif;
+  text-align: center;
+  border: 5px solid #0033ff;
+
+}
+
+p{
+  text-align: center;
+  border: 5px solid #0033ff
+  font-size: 20px;
 }
