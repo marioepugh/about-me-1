@@ -1,54 +1,39 @@
-var question1= prompt('As a student, I want to learn to code and pass code201 so I can move on to code 301');
+var favColor= prompt('Lets play a game called yes or no. Is my favorite color Red?');
+  if(favColor.toUpperCase() === 'YES' || favColor.toUpperCase() === 'Y'){
+    alert('Congrats! Red is the best color');
+    console.log('User answered correct');
+} else{
+    alert('Wrong!');
+    console.log('User answered wrong');}
 
-if(question1.toUpperCase() === 'YES' || question1.toUpperCase() === 'Y'){
-  alert('Congrats');
-  console.log('User answered correctly');
-}
-else{
-  alert('Wrong');
-  console.log('User answered wrong');
-}
+var liveJapan= prompt('Have I ever been to Japan?');
+  if(liveJapan.toUpperCase() === 'YES' || liveJapan.toUpperCase() === 'Y'){
+    alert('Correct! I lived there for 2 years');
+    console.log('User answered correctly');
+} else{
+    alert('Wrong, I lived there for 2 years');
+    console.log('User answered wrong');}
 
-var question1= prompt('As a student, I want to add on to continue to add on to my portfolio to show steady growith');
+var hateOlives= prompt('I love olives, I can eat them with any thing.');
+  if(hateOlives.toUpperCase() === 'NO' || hateOlives.toUpperCase() === 'N'){
+    alert('Correct, olives are gross');
+    console.log('User answered correctly');
+} else{
+    alert('Wrong');
+    console.log('User answered wrong');}
 
-if(question1.toUpperCase() === 'YES' || question1.toUpperCase() === 'Y'){
-  alert('Congrats');
-  console.log('User answered correctly');
-}
-else{
-  alert('Wrong');
-  console.log('User answered wrong');
-}
+var whichBranch= prompt('In 2013, I joined the Navy');
+  if(whichBranch.toUpperCase() === 'NO' || whichBranch.toUpperCase() === 'N'){
+    alert('Nice, I joined the Air Force. Also known as the BEST branch of the military');
+    console.log('User answered correctly');
+} else{
+    alert('Wrong');
+    console.log('User answered wrong');}
 
-var question1= prompt('As a human, I strive to be in good physical conditioning because it helps provides me with mental clarity');
-
-if(question1.toUpperCase() === 'YES' || question1.toUpperCase() === 'Y'){
-  alert('Congrats');
-  console.log('User answered correctly');
-}
-else{
-  alert('Wrong');
-  console.log('User answered wrong');
-}
-
-var question1= prompt('As a student, I will always copy and paste code from online because its easy and I can get things done faster');
-
-if(question1.toUpperCase() === 'NO' || question1.toUpperCase() === 'N'){
-  alert('Congrats');
-  console.log('User answered correctly');
-}
-else{
-  alert('Wrong');
-  console.log('User answered wrong');
-}
-
-var question1= prompt('As a student, I strive to graduate codefellows and become a full stack javascript developer so I can begin my career');
-
-if(question1.toUpperCase() === 'YES' || question1.toUpperCase() === 'YES'){
-  alert('Congrats');
-  console.log('User answered correctly');
-}
-else{
-  alert('Wrong');
-  console.log('User answered wrong');
-}
+var jiuJitsu= prompt('My favorite thing to do is Brazilian Jiu Jitsu.');
+  if(jiuJitsu.toUpperCase() === 'YES' || jiuJitsu.toUpperCase() === 'YES'){
+    alert('Absolutely!');
+    console.log('User answered correctly');
+  } else{
+    alert('Wrong');
+    console.log('User answered wrong');}
