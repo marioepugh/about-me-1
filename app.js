@@ -37,3 +37,21 @@ var jiuJitsu= prompt('My favorite thing to do is Brazilian Jiu Jitsu.');
   } else{
     alert('Wrong');
     console.log('User answered wrong');}
+
+var myAge= prompt("It's 2017. Can you guess how old I am.")
+  if(myAge == 26){
+    alert('GOOD JOB! You guessed right!');
+    console.log('User guessed right');
+  }
+ else if(myAge > 26){
+   alert('Whoa! try again. Too old.');
+   console.log('User guessed too old.');
+ }
+ else if(myAge < 26){
+   alert('Too young! Try again.');
+   console.log('User guessed too young.');
+ }
+else{
+  alert('Nice try, I am actually 26 years old');
+  console.log('User ran out of tries');
+}
