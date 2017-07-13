@@ -1,3 +1,5 @@
+'use strict'
+
 var favColor= prompt('Lets play a game called yes or no. Is my favorite color Red?');
   if(favColor.toUpperCase() === 'YES' || favColor.toUpperCase() === 'Y'){
     alert('Congrats! Red is the best color');
@@ -37,7 +39,7 @@ var jiuJitsu= prompt('My favorite thing to do is Brazilian Jiu Jitsu.');
   } else{
     alert('Wrong');
     console.log('User answered wrong');}
-
+//
 var myAge = 26;
 var yourGuess = 0;
 
@@ -58,4 +60,22 @@ while(yourGuess < 4 && ageQuestion !== myAge){
     }
 
 
-}
+// }
+var myCities = ["tokyo", "oklahoma City", "seattle"];
+var userChoice = 0;
+
+while(userChoice < 6 ){
+  var cityQuestion= prompt('What cities have I lived in in the past 3 years?'.toLowerCase());
+  for(i=0; i< myCities.length; i++){
+    if(cityQuestion === myCities[i]){
+      alert('Nice! You are correct!');
+      console.log('User answered correctly');
+      userChoice=0;
+    }else if(cityQuestion !== myCities[i]){
+      alert("Keep going");
+      userChoice++;
+    }else{
+      alert('Sorry, you are out of tries. I have lived in Tokyo, Seattle, and Oklahoma City');
+    }
+    }
+  }
